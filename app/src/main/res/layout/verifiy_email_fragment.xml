@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VerifyEmailFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/verificacionTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@string/title_check_email"
+            android:textColor="@color/teal_700"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/verificacionTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@string/subtitle_check_email" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/verificacionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ic_button"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:text="@string/continue_check_email"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/iraloginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:background="@drawable/ic_button"
+            android:textColor="@color/white"
+            android:text="Ir a login" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

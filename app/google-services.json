@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792463933088",
+    "project_id": "authpf-e89a2",
+    "storage_bucket": "authpf-e89a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792463933088:android:d69bc4de4301e1bd1593c5",
+        "android_client_info": {
+          "package_name": "com.ejercicios.auth_pf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792463933088-9ejp9vnimu8dd6rt7h116kivas2dogbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ94WErg_d0LvnG59ohEsRll6bEu5m0mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792463933088-9ejp9vnimu8dd6rt7h116kivas2dogbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
